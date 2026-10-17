@@ -19,6 +19,7 @@
       wl-clipboard
       kitty
       typst
+      arduino-cli
 
       age
       sops

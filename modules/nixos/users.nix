@@ -7,6 +7,7 @@
         "networkmanager"
         "input"
         "docker"
+        "dialout"
       ];
       shell = pkgs.zsh;
     };
