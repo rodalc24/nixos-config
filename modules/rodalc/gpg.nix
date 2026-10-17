@@ -4,6 +4,7 @@
     services.gpg-agent = {
       enable = true;
       enableSshSupport = true;
+      defaultCacheTtl = 3600;
       defaultCacheTtlSsh = 3600;
       sshKeys = [
         "6522CAEE4B2DB78DB1968B797815A64FE953A4CA"
