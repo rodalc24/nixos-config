@@ -19,6 +19,7 @@
       wl-clipboard
       kitty
       typst
+      nixfmt
       arduino-cli
 
       age
