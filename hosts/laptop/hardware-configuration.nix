@@ -39,6 +39,8 @@
     ];
   };
 
+  fileSystems."/tmp/nvim".fsType = "tmpfs";
+
   swapDevices = [
     { device = "/dev/mapper/vg-swap"; }
   ];
