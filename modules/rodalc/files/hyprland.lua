@@ -21,7 +21,7 @@ hl.monitor({
 ---------------------
 
 -- Set programs that you use
-local terminal    = "wezterm"
+local terminal    = "wezterm start --always-new-process"
 local fileManager = "thunar"
 local menu        = "hyprlauncher"
 
@@ -201,7 +201,7 @@ hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.window.kill())
 
 hl.bind(mainMod .. " + S", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + T", hl.dsp.layout("togglesplit"))    -- dwindle only
-hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen("fullscreen", toggle))
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({"fullscreen", toggle}))
 
 -- Change focus
 hl.bind(mainMod .. " + H", hl.dsp.focus({ direction = "left" }))

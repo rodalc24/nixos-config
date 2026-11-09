@@ -12,7 +12,7 @@
     ];
     boot.initrd.luks.devices.root = {
       device = "/dev/disk/by-label/luks-root";
-      preLVM = true;
+      # preLVM = true;
       allowDiscards = true;
     };
   };
